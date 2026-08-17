@@ -1,13 +1,11 @@
 export interface Employee {
-  id: number;
-  name: string;
-  email: string;
-  department: string;
-  designation: string;
-}
-
-export interface EmployeeRegistrationData extends Employee {
-  mobile: string;
-  joiningDate: string;
-  password: string;
+    id: number;
+    name: string;
+    email: string;
+    department: string;
+    designation: string;
+    photo: string;
+    status: "Active" | "Inactive";
+    mobile: string;
+    joiningDate: string;
 }
